@@ -1,0 +1,23 @@
+<p>afterview works!</p>
+<!-- <ng-container *ngIf="flag">
+    <p>yes i am in</p>
+</ng-container> -->
+
+<div *ngIf="flag">
+    <p>yes i am in</p>
+</div>
+
+<button (click)="change()"  #ref></button>
+<button [routerLink]="['/view']">click</button>
+
+<button appDirective>yeah</button>
+
+<button appDirective>click me</button>
+
+
+<ng-container id="container">
+    <h1>raj</h1>
+</ng-container>
+
+
+<input type="text" [(ngModel)]="name">
